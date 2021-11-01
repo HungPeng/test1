@@ -1,0 +1,26 @@
+import java.util.*;
+public class ex01  {
+    public static void main(String[]args){
+        Scanner sc =new Scanner(System.in);
+
+        double pi=3.14159;
+        double p=4*1.0/3;
+        double a =10;
+
+        int x=4;
+        int y=5;
+        int z=6;
+
+        double ans=Math.round((p*pi*a*a*a)*10.0)/10.0;
+
+        int asr2=x*y*2+x*z*2+y*z*2;
+
+
+
+
+    System.out.println("球形體積="+(((ans))));
+    System.out.println("立方體表面積="+asr2);
+    sc.close();
+
+    }
+}
