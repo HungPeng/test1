@@ -1,5 +1,5 @@
 import java.util.*;
-public class ex01  {
+public class ts02  {
     public static void main(String[]args){
         Scanner sc =new Scanner(System.in);
 
@@ -17,8 +17,10 @@ public class ex01  {
 
 
 
-
+    System.out.println("半徑="+(10));
     System.out.println("球形體積="+(((ans))));
+
+    System.out.println("長="+(4)+",寬="+(5)+",高="+(6));
     System.out.println("立方體表面積="+asr2);
     sc.close();
 
